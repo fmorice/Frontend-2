@@ -1,0 +1,28 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nombre": "Ficción"
+    },
+    {
+      "id": 2,
+      "nombre": "Ciencia ficción"
+    },
+    {
+      "id": 3,
+      "nombre": "Romance"
+    },
+    {
+      "id": 4,
+      "nombre": "Misterio"
+    },
+    {
+      "id": 5,
+      "nombre": "Fantasía"
+    },
+    {
+      "id": 6,
+      "nombre": "Historia"
+    }
+  ]
+}
