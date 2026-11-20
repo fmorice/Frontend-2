@@ -1,0 +1,4 @@
+html { min-width: 320px; scroll-behavior: smooth; }
+body { min-width: 320px; margin: 0; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+button, a { -webkit-tap-highlight-color: transparent; }
+::selection { background: #d8e56a; color: #19372f; }

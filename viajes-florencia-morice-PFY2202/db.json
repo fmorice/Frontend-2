@@ -1,0 +1,46 @@
+{
+  "destinos": [
+    {
+      "id": 1,
+      "nombre": "Valle Sagrado",
+      "pais": "Perú",
+      "descripcion": "Pueblos andinos, terrazas incas y montañas que custodian el camino hacia Machu Picchu.",
+      "actividadesPopulares": ["Visita a Machu Picchu", "Mercado de Pisac", "Trekking"]
+    },
+    {
+      "id": 2,
+      "nombre": "Cartagena de Indias",
+      "pais": "Colombia",
+      "descripcion": "Calles coloniales llenas de color, plazas animadas y atardeceres frente al Caribe.",
+      "actividadesPopulares": ["Ciudad amurallada", "Islas del Rosario", "Tour gastronómico"]
+    },
+    {
+      "id": 3,
+      "nombre": "San Pedro de Atacama",
+      "pais": "Chile",
+      "descripcion": "Un paisaje de otro mundo entre salares, volcanes y cielos nocturnos infinitos.",
+      "actividadesPopulares": ["Valle de la Luna", "Géiseres del Tatio", "Observación de estrellas"]
+    },
+    {
+      "id": 4,
+      "nombre": "Bariloche",
+      "pais": "Argentina",
+      "descripcion": "Bosques, lagos glaciares y montañas patagónicas para cada estación del año.",
+      "actividadesPopulares": ["Circuito Chico", "Navegación por el lago", "Senderismo"]
+    },
+    {
+      "id": 5,
+      "nombre": "Monteverde",
+      "pais": "Costa Rica",
+      "descripcion": "Bosque nuboso, puentes colgantes y una biodiversidad extraordinaria.",
+      "actividadesPopulares": ["Reserva biológica", "Canopy", "Avistamiento de aves"]
+    },
+    {
+      "id": 6,
+      "nombre": "Oaxaca",
+      "pais": "México",
+      "descripcion": "Una ciudad de arquitectura vibrante, cocina memorable y tradiciones vivas.",
+      "actividadesPopulares": ["Centro histórico", "Monte Albán", "Ruta del mezcal"]
+    }
+  ]
+}
