@@ -23,7 +23,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "npm run server:rest",
-    "server:rest": "json-server db.json --port 3001",
+    "server:rest": "json-server db.json --host 0.0.0.0 --port ${PORT:-3001}",
     "server:graphql": "node server/graphql-server.js"
   },
   "eslintConfig": {

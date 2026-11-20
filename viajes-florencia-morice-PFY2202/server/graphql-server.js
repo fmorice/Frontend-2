@@ -102,7 +102,7 @@ const handler = createHandler({
   },
 });
 
-const port = process.env.GRAPHQL_PORT || 4000;
+const port = process.env.PORT || process.env.GRAPHQL_PORT || 4000;
 const server = createServer((request, response) => {
   response.setHeader('Access-Control-Allow-Origin', process.env.ALLOWED_ORIGIN || '*');
   response.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
@@ -118,6 +118,6 @@ const server = createServer((request, response) => {
   response.writeHead(404).end('Usa el endpoint /graphql');
 });
 
-server.listen(port, () => {
+server.listen(port, '0.0.0.0', () => {
   console.log(`GraphQL disponible en http://localhost:${port}/graphql`);
 });
